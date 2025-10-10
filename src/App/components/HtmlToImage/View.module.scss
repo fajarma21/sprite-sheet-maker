@@ -1,0 +1,17 @@
+.imagesOuter {
+  display: inline-block;
+  background: rgb(230 230 230);
+}
+
+.imagesContainer {
+  display: grid;
+  grid-template-columns: repeat(var(--col, 3), var(--w, 0));
+  grid-template-rows: repeat(var(--row, 3), var(--h, 0));
+}
+
+.info {
+  text-align: right;
+  margin-left: auto;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
