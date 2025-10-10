@@ -4,11 +4,11 @@ import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/sprite-maker',
-  plugins: [react()],
+  base: '/sprite-sheet-maker',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
+  plugins: [react()],
 });
