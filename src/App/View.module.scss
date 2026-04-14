@@ -5,10 +5,9 @@
 }
 
 .title {
-  margin: 32px;
+  margin: 32px 0;
   display: grid;
   align-items: center;
-  justify-content: center;
   grid-template-columns: repeat(3, minmax(110px, 140px));
   grid-template-rows: 60px;
 
@@ -17,20 +16,16 @@
     align-items: center;
     justify-content: center;
     height: 60px;
-    border: 2px solid #585858;
+    border: 2px dashed #585858;
 
     &:first-child {
       border-radius: 4px 0 0 4px;
-      border-right-width: 1px;
+      border-right-width: 0px;
     }
 
     &:last-child {
-      border-left-width: 1px;
+      border-left-width: 0px;
       border-radius: 0 4px 4px 0;
-    }
-
-    &:nth-child(even) {
-      background-color: #585858;
     }
   }
 }
