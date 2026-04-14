@@ -8,10 +8,6 @@ import HtmlToImage from './components/HtmlToImage';
 
 import css from './View.module.scss';
 
-// TODO: improve - swap row & col
-// TODO: improve - fit height
-// TODO: canvas still bug
-
 const App = () => {
   const [tab, setTab] = useState(1);
 
